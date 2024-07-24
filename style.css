@@ -1,0 +1,163 @@
+body{
+    background-color: #151922;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+
+}
+.box{
+    /* border: 2px solid rgb(240, 234, 234); */
+    height: 100vh;
+    padding-left: 70px;
+   
+}
+.left{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    width: 30vw;
+    overflow: hidden; 
+    position: relative;
+}
+.right img{
+    width: 30vw;
+    height: 100%;
+    object-fit: cover; 
+    display: block; 
+}
+h1{
+    color: #ffb700;
+}
+.myp{
+    color: #ffb700;
+}
+.bigtext{
+    color: white;
+    font-size: 3.5rem;
+}
+/* styles.css */
+
+.button-group {
+    display: inline-flex;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+.button-group .button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.button1{
+    background-color: #ffb700;
+}
+.button1:hover{
+    background-color: #d89c05;
+
+} 
+.button2{
+    background-color: rgba(184, 182, 182, 0.925);
+}
+.button2:hover{
+    background-color: grey;
+}
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.ptext{
+    width: 50vw;
+    color: white;
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 4.5rem;
+    color: #ffb700;
+    text-align: center;
+}
+.skills{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    flex-wrap: wrap;
+
+}
+.child{
+    
+  padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 235, 231, 0.938);
+    border-radius: 5px;
+}
+.contact{
+    height: 70vh;
+    display: flex;
+    justify-content: s;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-top: 50px;
+  
+}
+footer{
+    height: 25vh;
+    background-color: rgba(233, 229, 229, 0.075);
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    margin-top: 60px;
+}
+hr{
+   color: black;
+}
+.foot{
+    text-align: center;
+}
+a{
+    font-size: 1.2rem;
+    color: #d89c05;
+    text-decoration: none;
+}
+
